@@ -1,0 +1,249 @@
+\documentclass[letterpaper,10pt]{article}
+
+
+
+\usepackage[hmargin=1cm, vmargin=1cm]{geometry}
+
+\usepackage[scaled]{helvet}
+\renewcommand\familydefault{\sfdefault}
+\usepackage[T1]{fontenc}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage{color}
+\definecolor{cyan}{rgb}{0.0, 0.85, 0.85}
+\definecolor{magenta}{rgb}{0.85, 0.0, 0.85}
+\definecolor{yellow}{rgb}{0.95, 0.95, 0.0}
+\definecolor{offwhite}{rgb}{0.98, 0.97, 0.94}
+
+
+
+\renewcommand{\labelitemi}{\scriptsize \color{yellow} $\triangleright$}
+
+\newcommand{\sectiontitle}[1]{
+	{\color{magenta} \vline height 1em depth 1pt width 1.3pt}%
+	{\large \colorbox{offwhite}{\color{black} \textsc{#1}}}
+	\vspace*{0.5em}
+}
+
+\newcommand{\sectionseparator}{
+	\vspace*{0.3em}
+}
+
+\newcommand{\experiencepanel}[4]{
+	\textbf{{#1}}
+	\begin{footnotesize}
+		\textbf{{#2}}
+	\end{footnotesize}
+	\\
+	\begin{scriptsize}
+		{#3} $\langle${#4}$\rangle$
+	\end{scriptsize}
+}
+
+\newcommand{\projectpanel}[3]{
+	\textbf{{#1}}
+	\begin{footnotesize}
+		{#2}
+	\end{footnotesize}
+	\begin{scriptsize}
+		{#3}
+	\end{scriptsize}
+}
+
+\newenvironment{statementlist}{
+		\begin{small}
+		\begin{itemize}
+}{
+		\end{itemize}
+		\end{small}
+		\vspace*{0.5em}
+}
+
+
+
+\begin{document}
+
+	% Remove page number, expected 1 page
+	\pagenumbering{gobble}
+
+	%
+	%	HEADER
+	%
+	\begin{minipage}[t]{0.65\textwidth}
+		\begin{Huge}
+			\colorbox{offwhite}{\color{cyan} \textbf{Kelvin Lu}}
+		\end{Huge}
+		\\
+		\begin{footnotesize}
+			\textit{python loving bicycle riding adventure time watching coffee fuelled software engineer}
+		\end{footnotesize}
+	\end{minipage}
+	%
+	\begin{minipage}[t]{0.3\textwidth}
+		\begin{flushright}
+			kelvinlu.github.io \\
+			kelvinlu4@gmail.com
+		\end{flushright}
+	\end{minipage}
+
+	\vspace{0.5em}
+	%\hline
+	\vspace{0.5em}
+
+	%
+	%	CONTENT
+	%
+	\begin{minipage}[t]{0.50\textwidth}
+
+		% Section
+		\sectiontitle{Employment}
+
+		% Items
+
+		\experiencepanel{Square}{Software Engineer}{San Francisco, CA}{2016 - present}
+		\begin{statementlist}
+			\item Works with a small team to maintain and develop CI/CD systems for Square's mobile and embedded software engineers.
+			\item Operates at various levels of the stack; including handling bare metal, administering Unix systems, and maintaining applications.
+			\item Develops software for build/test systems, automated provisioning, configuration mangement, metrics collection, and error reporting.
+			\item Other responsibilities include DevOps, on-call rotations, worker cluster management, and bare metal servicing.
+		\end{statementlist}
+
+		\experiencepanel{Strava}{Software Engineering Intern}{San Francisco, CA}{Summer 2015}
+		\begin{statementlist}
+			\item Overhauled an aging system that feeds the in-app \\ad targeting service and e-mail campaigns.
+			\item System aggregates and persists data for millions of Strava's users.
+			\item Migrated the process from a predominantly MySQL and Ruby base to utilize AWS Redshift and Apache Spark.
+			\item Reduced daily job time from upwards of 3 days long to 3 hours.
+			\item Contributed features to the core backend Ruby on Rails app.
+		\end{statementlist}
+
+		\sectionseparator
+
+		% Section
+		\sectiontitle{Organizations}
+
+		% Items
+		\experiencepanel{Davis CS Club}{Vice Chair, Web Dev. Committee}{Davis, CA}{2014-2015}
+		\begin{statementlist}
+			\item Lead web development workshops for beginning students.
+		\end{statementlist}
+
+		\experiencepanel{Davis CS Club}{Tutor}{Davis, CA}{Spring 2014, Fall 2014}
+		\begin{statementlist}
+			\item Tutored students in lower division computer science courses.
+			\item Reinforced object oriented, data structure and algorithm concepts.
+			\item Increased students' understanding of core computer science ideas.
+		\end{statementlist}
+
+		\sectionseparator
+
+		% Section
+		\sectiontitle{Projects}
+
+		% Items
+		\projectpanel{krotos-convnet}{github.com/KelvinLu/krotos-convnet}{June 2016}
+		\begin{statementlist}
+			\item Personal project for experimenting with machine learning and learning to use TensorFlow.
+			\item Utilizes neural network and matrix factorization models.
+			\item Scrapes song audio from 7digital and attempts to identify musical themes and perform latent vector space mapping.
+		\end{statementlist}
+
+		\projectpanel{Senior Design Project}{(coursework)}{Jan 2016}
+		\begin{statementlist}
+			\item Worked in a team of four to build a system to aggregate and process data from an in-flight DJI Phantom 3, via the DJI SDK.
+			\item Proof-of-concept service to log overparked vehicles via automated drones.
+			\item Utilizes license plate recognition libraries and a message queue, web-driven, multi-process system to perform function.
+		\end{statementlist}
+
+	\end{minipage}
+	%
+	\hspace{0.05\textwidth}
+	%
+	\begin{minipage}[t]{0.30\textwidth}
+
+		% Section
+		\sectiontitle{Education}
+
+		% Items
+		\textbf{University of California, Davis}
+		\\
+		\begin{small}
+			College of Engineering, Class of 2016\\
+			B.S. Computer Science and Engineering
+		\end{small}
+		\vspace{0.3em}
+		\begin{small}
+			\begin{tabular}{l l}
+				\textbf{coursework}\\
+				\textit{2013} & object-oriented programming\\
+				& data structures and programming\\
+				& machine dependent programming\\
+				\textit{2014} & computer architecture\\
+				& programming languages\\
+				& probability and statistical modeling\\
+				\textit{2015} & algorithm design\\
+				& software engineering\\
+				& computer networks\\
+				& operating systems\\
+				& computer vision\\
+				& information design\\
+				& machine learning\\
+				\textit{2016} & embedded systems\\
+				& computer security\\
+			\end{tabular}
+			\\
+			\vspace*{0.3em}
+			\\
+			\begin{tabular}{l}
+				\textbf{awards+honors}\\
+				Dean's List, College of Engineering $\times$ {8 Quarters}\\
+				Edward Kraft Prize Recipient\\
+			\end{tabular}
+		\end{small}
+		\vspace*{1em}
+
+		\sectionseparator
+
+		% Section
+		\sectiontitle{Technical Skills}
+
+		% Items
+		\begin{tabular}{l l}
+			\textbf{languages} 	\\
+			\textit{proficiency} 	& \textit{familiarity} \\
+			Ruby 		& R \\
+			Python 		& MATLAB \\
+			Java 		& Octave \\
+			Scala		& \\
+			JavaScript 	& \\
+			C++ 		& \\
+			C 			& \\
+			HTML, CSS  	& \\
+		\end{tabular}
+		\\
+		\vspace*{0.3em}
+		\\
+		\begin{tabular}{l l l}
+			\textbf{frameworks, libraries,}\\
+			\textbf{services, tools}\\
+			Apache Spark 		& Jenkins\\
+			Apache Cassandra 	& Sentry\\
+			\\
+			Chef  				& Redis\\
+			Ansible 			& PostgreSQL\\
+			Puppet 				& MySQL\\
+			\\
+			AWS S3 				& Pandas\\
+			AWS Redshift 		& SciPy\\
+			AWS SNS 			& NumPy\\
+			AWS SQS 			& TensorFlow\\
+			\\
+			Ruby on Rails  		& AngularJS\\
+			Django  			& jQuery\\
+			Flask 				& Foundation\\
+		\end{tabular}
+
+	\end{minipage}
+
+\end{document}

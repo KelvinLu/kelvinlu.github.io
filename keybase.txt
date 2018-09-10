@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/kelvinlu
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://kelvinlu.github.io
+  * I am kelvinlu (https://keybase.io/kelvinlu) on keybase.
+  * I have a public key with fingerprint 06FE C662 F215 0E47 6ED9  882C 7D0D 4F68 D892 6FCF
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01012e47ebb5b5ddbbf1b4e8567b1d2e1d4e35d0bf3ade1ed8d075d9a31b7a266a9d0a",
+      "fingerprint": "06fec662f2150e476ed9882c7d0d4f68d8926fcf",
+      "host": "keybase.io",
+      "key_id": "7d0d4f68d8926fcf",
+      "kid": "01012e47ebb5b5ddbbf1b4e8567b1d2e1d4e35d0bf3ade1ed8d075d9a31b7a266a9d0a",
+      "uid": "0eaf08379fb660945047fbafd1743719",
+      "username": "kelvinlu"
+    },
+    "service": {
+      "hostname": "kelvinlu.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1514706027,
+  "expire_in": 157680000,
+  "prev": "13be27db921db19af013ec1be965b52f9c4c74926c30cc33c104a0441ff64ee2",
+  "seqno": 12,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGtUl1IVEEY3dXyL0WLIEsjuJAPodud+383rShMISUrjJJyvXNnZr207d32XrdC
+pD9CDP/QigoDkXrIh4KKMtQiKbK2MCHMCop+rCyIRAqTsOZqvUSPzcsw35xz5pzD
+NKfEumLcNSkbKodbzAF3dBS6ygqPhaoZaKJ9jLea2YmnNxxA2LJ9Ow3EeBkWsIDD
+gowhFKGIEIQEQAEroiRDgDgMkIB5EbGQ8BrCACMFsbKIVI0HUNY4SdJUxGpMNkOM
+oB+HQ2EjaDuyEsG6JHGEAyJL5SWMVEXhdBmxSCCSghSVk4hOKLHStBwGNQc1C3sM
+k87owTdt7x/4/+y7akYOa4RVeFklUJJYVRBZQSZQIwjIAi8D1QFaOBzUduFpr4GI
+EQxUMTXZDJ1GDB07xTpJ/kJ4/IZdWQVnUoXCpm3qZoDeV9p2yPI6fHtfyCHswdD3
+W8oHjSCibVJGBIctwwwyXkCRum042kAEgsxKLCdnM3hvyAhjn+EgRFlSWLqcd3CE
+SgIfDzEnI6hyAEGg0oSAxzqAWJVoZxxRdUGXBVqszrO6zvM6YAWNFQRAiCRgzDFO
+ut1Bk4pz1Kjmp6KW4Q9qdlUYMzVJde7MWS53jCtudozz0VxJiWl/ft+FD/FTuQ/5
+BenLB09cm/9Y89SfmbO2pQxkpz7rGngxghISF48fHKpPf+97u64iWvLpfJaxrflb
+ylCgZU1sRY/VVzrv1ROj4uCV3suj3rjGwUPJt7+vLC/d2Lxe6U7oaPRVe77uiBZ1
+rlqQOvmjc2lKYfXpubVNPWc9d7qarsdPjKb1fXy5p/9+4E1xG3mefLj77o6iLa0X
+l2Qc/1KQF73aQXJXLBsvG3valjleXoCzPhcx7flr7vqLXq++17XQWhS7dWrkwXb9
+yFjk3cr6xoZNN85Fa/PaiL5/scvOafhZm/5o+OSttX3JrdK83vzTGS9vTj49CkLF
+t0o6+/MPXGovb51w52yuOzX1Cw==
+=jxue
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kelvinlu
+
+==================================================================

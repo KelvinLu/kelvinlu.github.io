@@ -1,0 +1,32 @@
+@media (max-width: 450px), (max-height: 450px) {
+	div.frame#frame-home div.frame-content p:after {
+		margin-top: 1em;
+		opacity: 0.3;
+		font-size: 0.6em;
+
+		content: 'hint: swipe around to navigate on mobile'
+	}
+
+	div#panel {
+		display: none;
+	}
+
+	div#container-content {
+		position: absolute;
+		display: inline-block;
+		float: left;
+
+		width: 100%;
+		min-height: 100%;
+
+		transform: rotateY(0deg);
+	}
+
+	div.frame-content {
+		width: 80%;
+
+		line-height: 140%;
+
+		transform: translateX(-50%) translateY(-50%);
+	}
+}
