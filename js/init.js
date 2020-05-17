@@ -22,7 +22,7 @@ shunts = new ShuntDiv(document.getElementById('container-content'), [
     saveWithHash: true,
 });
 
-FRAMES = ["home", "resume", "code", "social", "cycling", "cash", "blogs"];
+FRAMES = ["home", "resume", "code", "prose", "photo"];
 FRAMES_WRAP = FRAMES.concat([FRAMES[0]]);
 
 FRAMES.forEach(function(frame) {
