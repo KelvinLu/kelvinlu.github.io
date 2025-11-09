@@ -51,8 +51,8 @@ div#panel a:hover {
 div#panel-content {
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%) rotateY(25deg);
+  left: 4em;
+  transform: translateY(-50%);
 }
 
 div#container-content {
